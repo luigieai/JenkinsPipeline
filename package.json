@@ -1,0 +1,22 @@
+{
+  "name": "jenkinspipeline",
+  "version": "1.0.0",
+  "description": "App em NodeJS bem simples feito somente com o intuito de estudos de criação de execução de pipelines com Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigieai/JenkinsPipeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luigieai/JenkinsPipeline/issues"
+  },
+  "homepage": "https://github.com/luigieai/JenkinsPipeline#readme",
+  "devDependencies": {
+    "tape": "^5.1.1"
+  }
+}
