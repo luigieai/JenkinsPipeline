@@ -1,5 +1,7 @@
 pipeline {
-    agent { docker { image 'node:15.6.0-alpine3.12' } }
+    agent { 
+        docker { image 'node:15.6.0-alpine3.12' args '-u root:root' } 
+    }
     stages {
         stage('build') {
             steps {
